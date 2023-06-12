@@ -1,0 +1,77 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400; 
+}
+
+eader{
+    background-color: #F1FDFF;
+    position: relative;
+    top:5px; 
+    left: 20px;
+}
+
+.title-phrase{
+    width: 400px;
+    height: min-content;
+    font-size: 93px;
+    color: #9AD2DE;
+    align-items: left;
+}
+
+.title-description{
+    font-size: 20px;
+    align-items: left;    
+    width: 400px;
+}
+
+.section-desc{
+    font-size: 46px;
+}
+
+.section-desc{
+    font-size: 20px;
+}
+
+.item-description{
+    font-size: 16px;
+}
+
+.hug-class{
+    text-align: center;
+    line-height: 1;     /* width: 800px; */
+}
+
+.hug-title{
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.hug-phrase{
+    font-size: 27px;
+}
+
+.hug-description{
+    font-size: 20px;
+    color: #73A6B1;
+    text-shadow: 0 1px 1px black;
+    line-height: 1;
+}
+
+.time-period{
+    color: #3D8C9D;  
+    font-size: 16px;      
+}
+
+section{
+    position: relative;
+    top:5px; 
+    left: 20px;
+    background-color: #F1FDFF;  
+    color:#000000;  
+}
+
+.section-photo{
+    border-radius: 5%;
+    border: 1px solid black;  
+    object-position: right center;     /* size: 50%; */     /* float: right; */    /* position: relative;     top: 5px;      left: 600px; */
+}
