@@ -1,8 +1,49 @@
-p{
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 20px;
+
+}
+
+body{
+    margin: 0;
+}
+
+div{    
+    
+    width: 100%; /* %;  350px; em; rem;*/
+    /* height: 50px; */
+    border: 10px solid red;
+    /* padding: 10px 20px 40px; */
+    /* margin: 20px; */
+    /* overflow:scroll; */
+    /* font-size: 30%; */
+}
+
+h2{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}
+
+main{
+    border: 3px solid blue;
+    max-width: 800px;
+    margin: 0 auto;
+}
+/* header{
+    height: 100vh;
+    background-color: aquamarine;
+} */
+
+/* p{
     width: 300px;
     display: inline;
 }
 
 li{
     display: inline;
-}
+} */
