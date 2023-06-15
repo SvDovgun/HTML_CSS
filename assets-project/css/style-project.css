@@ -1,13 +1,66 @@
-body {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400; 
+* {
+    box-sizing: border-box;
 }
 
-eader{
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800px; 
+}
+
+header {
     background-color: #F1FDFF;
     position: relative;
     top:5px; 
     left: 20px;
+}
+
+.li-menu{padding: 5px 5px;}
+
+.menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 5px 5px;
+}
+
+.menu-items {
+    margin-left: auto;
+}
+
+.blue-btn {
+    background-color: aquamarine;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.parent {
+    /* border: 5px solid blue; */
+    height: 100%;
+    /* flex */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+}
+
+.child {
+    /* border: 5px solid red; */
+    width: 90%;
+    /* flex */
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items:  center;
+    padding: 20px 20px 20px 20px;
+
+}
+
+li{padding: 1px 1px;}
+
+.hand {
+    width: 90%;
+    margin: 10px auto;    
 }
 
 .title-phrase{
@@ -24,8 +77,10 @@ eader{
     width: 400px;
 }
 
-.section-desc{
-    font-size: 46px;
+.section-title{
+    font-size: 46px; 
+    align-items: center;
+    text-transform: uppercase;
 }
 
 .section-desc{
@@ -73,5 +128,5 @@ section{
 .section-photo{
     border-radius: 5%;
     border: 1px solid black;  
-    object-position: right center;     /* size: 50%; */     /* float: right; */    /* position: relative;     top: 5px;      left: 600px; */
+    object-position: right center;    
 }
